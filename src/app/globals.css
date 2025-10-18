@@ -20,7 +20,10 @@
 }
 
 body {
-  background: var(--background);
+  background: linear-gradient(45deg, #6b95e2, #061c42);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
